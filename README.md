@@ -1,9 +1,15 @@
-# 云学堂在线教育平台 Demo（轻量静态版）
+# 云课堂在线教育平台 Demo
 
-这是一个用于简历展示的轻量 Demo主要展示：
+该目录为云课堂在线教育平台的在线展示页面，包含首页、课程中心、课程详情、学习中心、教学后台、媒资管理、订单中心、认证授权和系统架构等页面。
 
-- 课程搜索与筛选聚合：模拟 Elasticsearch BoolQuery、过滤、聚合。
-- 选课、下单、支付、开通学习资格：模拟学习服务、订单服务、RabbitMQ 消息通知。
-- 视频大文件断点续传：模拟 checkfile、checkchunk、uploadchunk、mergechunks。
+## 部署方式
 
+将以下文件上传到 GitHub Pages、Vercel、腾讯云 CloudBase 静态托管或任意静态网站托管服务即可：
 
+- index.html
+- styles.css
+- app.js
+
+## 访问入口
+
+部署后访问站点根路径即可进入平台首页。
