@@ -63,7 +63,7 @@ function appShell(content) {
         <nav class="nav">
           <a class="brand" href="#/">
             <span class="logo">${icon('book')}</span>
-            <span>云课堂在线教育平台</span>
+            <span>智培云企业培训平台</span>
           </a>
           <div class="nav-links">
             ${navs.map(n => `<a class="nav-link ${current === n.path || (current.startsWith('/course/') && n.path === '/courses') ? 'active' : ''}" href="#${n.path}">${n.label}</a>`).join('')}
@@ -74,7 +74,7 @@ function appShell(content) {
         </nav>
       </header>
       ${content}
-      <div class="footer">© 云课堂在线教育平台 · 在线学习与课程管理系统</div>
+      <div class="footer">© 智培云企业培训平台 · 在线学习与课程管理系统</div>
       <div id="toast" class="toast"></div>
     </div>
   `
